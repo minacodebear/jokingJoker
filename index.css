@@ -1,0 +1,50 @@
+body {
+    background-color: #B9FAF8;
+}
+
+h1 {
+    text-align: center;        
+        
+}
+
+#box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+    flex-direction: column;
+  }
+
+#jokeButton {
+    margin-bottom: 10px;
+    padding: 15px;
+    font-size: 20px;
+    background-color: hsl(212, 100%, 67%);
+    color: purple;
+    border: none;
+    border-radius: 10px;
+}
+
+#jokeQuestion {
+    font-size: 30px;
+}
+
+input {
+    margin: 10px;
+    padding: 15px;
+    width: 350px;
+}
+
+#submit {
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-color:#B3B3F1;
+    color:#d64483;
+    border: none;
+    border-radius: 10px;
+}
+
+#message {
+    font-size: 30px;
+}
